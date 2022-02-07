@@ -1,3 +1,4 @@
+import NestedList from "./components/NestedList";
 import { Transfer } from "./components/Transfer";
 
 function App() {
@@ -66,11 +67,10 @@ function App() {
     },
   ];
   return (
-    <ul>
-      {DATA.map((transfer) => (
-        <Transfer details={transfer} />
-      ))}
-    </ul>
+    <>
+      <h1>План путешествия</h1>
+      <NestedList data={DATA} />
+    </>
   );
 }
 
