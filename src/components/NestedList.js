@@ -27,7 +27,7 @@ export default function NestedList(props) {
 
   return (
     <List
-      sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
+      sx={{ width: "100%", maxWidth: 660, bgcolor: "background.paper" }}
       component="nav"
       aria-labelledby="nested-list-subheader"
       subheader={
@@ -44,7 +44,7 @@ export default function NestedList(props) {
           <>
             <ListItemButton onClick={handleClick}>
               <ListItemIcon>
-                {transfer.vehicle === "plain" ? (
+                {transfer.vehicle === "plane" ? (
                   <FlightIcon />
                 ) : transfer.vehicle === "bus" ? (
                   <AirportShuttleIcon />
