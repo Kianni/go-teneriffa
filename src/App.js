@@ -1,17 +1,17 @@
-import NestedList from "./components/NestedList";
-import { Transfer } from "./components/Transfer";
+import NestedList from './components/NestedList';
+// import { Transfer } from "./components/Transfer";
 
 const defaultData = [
   {
-    date: "17.6",
-    id: "1000",
-    time: { departure: "8.30", arrival: "11.00" },
+    date: '17.6',
+    id: '1000',
+    time: { departure: '8.30', arrival: '11.00' },
     location: {
-      departure_point: "Stockholm",
-      arrival_point: "Praga",
+      departure_point: 'Stockholm',
+      arrival_point: 'Praga',
     },
-    vehicle: "plane",
-    additional_info: "Lufthansa",
+    vehicle: 'plane',
+    additional_info: 'Lufthansa',
   },
 ];
 
