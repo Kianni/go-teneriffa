@@ -3,7 +3,7 @@ import NestedList from './components/NestedList';
 
 const defaultData = [
   {
-    date: '17.6',
+    date: '19.6',
     id: '1000',
     time: { departure: '8.30', arrival: '11.00' },
     location: {
